@@ -43,7 +43,7 @@ class _GenerateQrCodePageState extends State<GenerateQrCodePage> {
                 alignment: Alignment.center,
                 child: SizedBox(
                   height: 250,
-                  child: QrImage(
+                  child: QrImageView(
                     data: qrData,
                   ),
                 ),
